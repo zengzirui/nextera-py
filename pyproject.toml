@@ -1,0 +1,10 @@
+[project]
+version = "0.1.0"
+name = "nextera-py"
+description = "a Nextera python module"
+authors = [{name = "jason"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=62.0.0", "wheel"]
