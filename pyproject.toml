@@ -1,10 +1,18 @@
 [project]
-version = "0.1.0"
 name = "nextera-py"
-description = "a Nextera python module"
-authors = [{name = "jason"}]
-license = {file = "LICENSE"}
+version = "0.0.2"
+authors = [
+  {name="zengzirui"},
+]
+description = "A small example package"
 readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
 
-[build-system]
-requires = ["setuptools>=62.0.0", "wheel"]
+[project.urls]
+Homepage = "https://github.com/zengzirui/nextera-py"
+Issues = "https://github.com/zengzirui/nextera-py/issues"
